@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ralfi Blog Koduleht</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+
+        /* Gradient background color */
+        .gradient-background {
+            background: linear-gradient(to bottom, #4CAF50, #2E7D32);
+            padding: 20px; /* Adjust padding as needed */
+            text-align: center;
+            color: white;
+        }
+
+        /* Basic CSS for banner */
+        .banner {
+            background-color: #333;
+            color: #fff;
+            padding: 20px; 
+            text-align: center;
+            display: flex;
+            align-items: center;
+            border: none;
+
+        }
+
+        /* Style for links */
+        .banner a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Style for hover effect on links */
+        .banner a:hover {
+            text-decoration: underline;
+        }
+
+        .bottom-banner {
+            background-color: #333;
+            color: #fff;
+            padding: 6px;
+            text-align: center;
+            display: flex;
+            bottom: 0; /* Stick to the bottom */
+            right: 0;
+            left: 0;
+            border: 1px solid white; /* Add top border */
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Style for links */
+        .bottom-banner a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            flex-shrink: 0;
+        }
+
+        /* Style for hover effect on links */
+        .bottom-banner a:hover {
+            text-decoration: underline;
+        }
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end; /* Align items to the end (right) */
+            border: 2px solid black; /* Add border around the sidebar */
+            padding: 10px; /* Add padding inside the sidebar */
+            margin-top: auto; /* Add some space between the sidebar and the content above */
+            height: 100%;
+            background-color: aliceblue;
+        }
+        .sidebar img {
+            border-radius: 10px;
+            border: 2px solid #333;
+            height: 150px;
+            width: 150px;
+            margin-bottom: 10px; /* Adjust as needed to create space between images */
+        }
+
+        .container {
+            display: flex;
+            justify-content: flex-end; /* Aligns content to the right */
+            padding: 10px; /* Add padding inside the container */
+            background-color: lightgrey;
+            padding-bottom: 100px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <a style="font-size: 19px; background-color: #222222;padding: 8px;border-radius: 5px;" href="index.html"><strong>Koduleht</strong></a>
+        <a style="font-size: 18px;" href="archive.html"><strong>Postid</strong></a>
+        <a style="font-size: 17px;" href="contact.html"><strong>Kontakt</strong></a>
+    </div>
+
+    <div class="gradient-background">
+        <h1>Tere tulemast minu blogi kodulehele</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed adipisci fugiat, excepturi praesentium voluptas consequuntur eaque, officiis modi facere sint nesciunt id, nulla obcaecati. Eius illum magni sequi ex perspiciatis.</p>
+    </div>
+
+    <div class="container">
+
+        <div class="content">
+            <h2>Miks ma blooge teen?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam expedita recusandae impedit. Maxime debitis voluptatum non molestias delectus nesciunt, adipisci repudiandae modi cumque harum iure nobis corporis consectetur unde culpa?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad rerum quaerat, unde laudantium provident vel incidunt sit blanditiis, necessitatibus obcaecati voluptas earum ea nemo fugiat nihil hic dolor, voluptatem tempore.</p>
+            <br>
+            <h2>Kes ma olen?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad repellendus minima laborum quis, earum aliquam quasi quisquam quaerat ratione vel nam sit eum harum amet omnis non eveniet expedita delectus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque unde porro et quas optio reprehenderit incidunt quasi. Reiciendis quo laboriosam, impedit, vitae minus maxime ut asperiores ipsa magni delectus id!</p>
+            <br>
+            <h2>Kui tihti ma postitan ja mis platformidel?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus magni iure repellendus ipsam fugiat alias corrupti perspiciatis, enim in voluptas aliquid autem. Tempora quaerat cum exercitationem corrupti unde architecto inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint non, quo eos consectetur corrupti assumenda laborum vero molestiae quos mollitia! Praesentium odio dolores adipisci consequuntur aperiam illo id hic ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quos sit perferendis alias ratione repellendus soluta, distinctio iusto harum, aliquid dolores sequi nulla doloribus aspernatur nam error. Quaerat, ab? Nostrum.</p>
+        </div>
+
+        <aside class="sidebar">
+            <h3 style="background-color: #4CAF50">Viimased <br> blogipostitused</h3>
+            <img style="height: 150px; width: 165px;" src="img/chicken_gravy.jpg" alt="chicken_gravy">
+            <img style="height: 150px; width: 165px;" src="img/chickenbreast.jpeg" alt="chickenbreast">
+            <img style="height: 150px; width: 165px;" src="img/salad.jpeg" alt="salad">
+        </aside>
+
+    
+
+    </div>
+
+    <div style="border-width:0px;" class="bottom-banner">
+        <p style="font-size: 18px;"><strong>Asukoht</strong> <br>Eesti, kehtna </p>
+        <p style="font-size: 18px;"><strong>Võta ühendust </strong><br> <a href="contact.html">Kontakt info</a></p>
+        <p style="font-size: 18px;"><strong>Keeled</strong><br>Eesti, Inglise <br></p>
+    </div>
+
+</body>
+</html>

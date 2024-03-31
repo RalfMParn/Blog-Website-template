@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogid</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        /* Gradient background color */
+        .gradient-background {
+            background: linear-gradient(to bottom, #4CAF50, #2E7D32);
+            padding: 20px; /* Adjust padding as needed */
+            text-align: center;
+            color: white;
+        }
+
+        /* Basic CSS for banner */
+        .banner {
+            background-color: #333;
+            color: #fff;
+            padding: 20px; 
+            text-align: center;
+            display: flex;
+            align-items: center;
+            border: none;
+        }
+
+        /* Style for links */
+        .banner a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Style for hover effect on links */
+        .banner a:hover {
+            text-decoration: underline;
+        }
+
+        .bottom-banner {
+            background-color: #333;
+            color: #fff;
+            padding: 6px;
+            text-align: center;
+            display: flex;
+            bottom: 0; /* Stick to the bottom */
+            right: 0;
+            left: 0;
+            border: 1px solid white; /* Add top border */
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Style for links */
+        .bottom-banner a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Style for hover effect on links */
+        .bottom-banner a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display:flex;
+            flex-wrap: wrap;
+	        justify-content: start ;
+            flex-direction: row;
+            padding: 10px; /* Add padding inside the container */
+            background-color: lightgrey;
+            flex-grow: 1; 
+            min-height: 75vh;
+            overflow: hidden;
+        }
+
+        .text {
+            font-size: 16px; /* Adjust font size as needed */
+            margin-top: auto;
+        }
+
+        .container_img {
+            position: relative;
+            max-width: 300px;
+            margin-right: 20px; /* Add spacing between the elements */
+            display:inline-block;
+            margin-top: 10px;
+            height: 100%;
+            box-sizing: border-box;
+            border-radius: 8px;
+            padding: 5px;
+            border: 2px solid #333; 
+            background-color: darkcyan ;
+            text-align: center;
+            
+            flex-wrap: wrap;
+        }
+        .image {
+            border-radius: 8px; /* Rounded corners for the image */
+            overflow: hidden; /* Ensure image stays within rounded borders */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <a style="font-size: 19px;" href="index.html"><strong>Koduleht</strong></a>
+        <a style="font-size: 18px; background-color: #222222;padding: 8px;border-radius: 5px;" href="archive.html"><strong>Postid</strong></a>
+        <a style="font-size: 17px;" href="contact.html"><strong>Kontakt</strong></a>
+    </div>
+
+    <div class="gradient-background">
+        <h1>Blogi postitused</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed adipisci fugiat, excepturi praesentium voluptas consequuntur eaque, officiis modi facere sint nesciunt id, nulla obcaecati. Eius illum magni sequi ex perspiciatis.</p>
+    </div>
+    <div class="container">
+        <div class="container_img">
+            <div class="image">
+                <img style="height: 175px; width: 300px;" src="img/chicken_gravy.jpg" alt="chicken_gravy">
+            </div>
+            
+            <p class="text"><strong><i>Näljane tiiger, 15.03.24</i></strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti et officiis culpa repudiandae ipsum aliquam, vel esse natus. Tempora numquam mollitia cumque obcaecati iste beatae pariatur. Voluptatum consectetur sit ducimus.</p>
+            <p><strong>9/10</strong></p>
+        </div>
+        <div class="container_img">
+            <div class="image">
+                <img style="height: 175px; width: 300px;" src="img/chickenbreast.jpeg" alt="chickenbreast">
+            </div>
+            <p class="text"><strong><i>Linna Maitsed, 10.03.24</i></strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis velit, fugiat maiores quis commodi fuga temporibus consequuntur exercitationem? Sunt molestiae corporis quisquam aspernatur libero dolores possimus similique unde <qui class="lo"></qui></p>
+            <p><strong>6/10</strong></p>
+            
+        </div>
+        <div class="container_img">
+            <div class="image">
+                <img style="height: 175px; width: 300px;" src="img/salad.jpeg" alt="salad">
+            </div>
+            <p class="text"><strong><i>Alpide Nautingud, 5.03.24</i></strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur aes quis commodi fuga temr exercitationem? libero dolores possimus similique unde <qui class="lo"></qui></p>
+            <p><strong>8/10</strong></p>
+            
+        </div>
+        <div class="container_img">
+            <div class="image">
+                <img style="height: 175px; width: 300px;" src="img/pasta.jpg" alt="pasta">
+            </div>
+            <p class="text"><strong><i>Päikseloojangu võre, 1.03.24</i></strong></p>
+            <p>Lorem ipsum dolor sit amet exercitationem? Sunt molestiae corporis quisquam aspernatur libero dolores possimus similique unde <qui class="lo"></qui></p>
+            <p><strong>2/10</strong></p>
+            
+        </div>
+        <div class="container_img">
+            <div class="image">
+                <img style="height: 175px; width: 300px;" src="img/kebab_fries.jpg" alt="Kebab meat">
+            </div>
+            <p class="text"><strong><i>Farm Burger, 29.02.24</i></strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis velit, fugiat maiores quis commodi fuga temporibus consequuntur exercitationem? Sunt molestiae corporis quisquam aspernatur libero dolores possimus similique unde Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius natus, quisquam nulla esse dignissimos? Doloribus facilis sapiente iste unde optio odit praesentium vero minima, incidunt vel tempore ut reprehenderit. <qui class="lo"></qui></p>
+            <p><strong>3/10</strong></p>
+            
+        </div>
+        <div class="container_img">
+            <div class="image">
+                <img style="height: 175px; width: 300px;" src="img/ramen.jpeg" alt="ramen">
+            </div>
+            <p class="text"><strong><i>Hitomaki, 22.02.24</i></strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur dolores molestias ipsam, expedita doloremque error placeat, officiis nisi voluptas dolor accusantium enim! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate saepe provident laborum consequuntur inventore odit aperiam unde quo amet iusto impedit excepturi ullam, magni eaque tempora iste perferendis, nisi quod! <qui class="lo"></qui></p>
+            <p><strong>10/10</strong></p>
+            
+        </div>
+
+    </div>
+
+    <div style="border-width:0px;" class="bottom-banner">
+        <p style="font-size: 18px;"><strong>Asukoht</strong> <br>Eesti, kehtna </p>
+        <p style="font-size: 18px;"><strong>Võta ühendust </strong><br> <a href="contact.html">Kontakt info</a></p>
+        <p style="font-size: 18px;"><strong>Keeled</strong><br>Eesti, Inglise <br></p>
+    </div>
+
+</body>
+</html>
